@@ -2216,6 +2216,13 @@ html.no-csstransitions .home-content__main {
     max-width: 1024px;
 }
 
+.about-desc .profile {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    margin: 0 auto 1.2rem auto;
+}
+
 
 /* ------------------------------------------------------------------- 
  * ## about stats
