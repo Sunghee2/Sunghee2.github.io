@@ -2231,6 +2231,12 @@ html.no-csstransitions .home-content__main {
     text-align: center;
 }
 
+.about-stats .school-mark {
+    height: 15rem;
+    width: 15rem;
+    margin: 0 auto 1.2rem auto;
+}
+
 .stats__col {
     margin: 5.4rem 0;
     padding: 0 2rem;
@@ -2255,10 +2261,19 @@ html.no-csstransitions .home-content__main {
     white-space: nowrap;
 }
 
-.stats h5 {
+.stats .school-name {
     font-family: "montserrat-semibold", sans-serif;
     margin-top: 1.8rem;
     color: #000000;
+    font-size: 1.8rem;
+    line-height: 1.333;
+    position: relative;
+}
+
+.stats .school-desc {
+    font-family: "montserrat-semibold", sans-serif;
+    margin-top: 1.8rem;
+    color: #A9F5BC;
     font-size: 1.8rem;
     line-height: 1.333;
     position: relative;
